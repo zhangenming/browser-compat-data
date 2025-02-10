@@ -2,7 +2,7 @@
   "webassembly": {
     "api": {
       "__compat": {
-        "mdn_url": "https://developer.mozilla.org/docs/WebAssembly/JavaScript_interface",
+        "mdn_url": "https://developer.mozilla.org/docs/WebAssembly/Reference/JavaScript_interface",
         "spec_url": "https://webassembly.github.io/spec/js-api/#webassembly-namespace",
         "tags": [
           "web-features:wasm"
@@ -48,7 +48,7 @@
       "compile_static": {
         "__compat": {
           "description": "`compile()` static method",
-          "mdn_url": "https://developer.mozilla.org/docs/WebAssembly/JavaScript_interface/compile_static",
+          "mdn_url": "https://developer.mozilla.org/docs/WebAssembly/Reference/JavaScript_interface/compile_static",
           "spec_url": "https://webassembly.github.io/spec/js-api/#dom-webassembly-compile",
           "tags": [
             "web-features:wasm"
@@ -108,7 +108,7 @@
               },
               "edge": "mirror",
               "firefox": {
-                "version_added": false
+                "version_added": "134"
               },
               "firefox_android": "mirror",
               "ie": {
@@ -129,7 +129,7 @@
               "webview_ios": "mirror"
             },
             "status": {
-              "experimental": true,
+              "experimental": false,
               "standard_track": true,
               "deprecated": false
             }
@@ -139,7 +139,7 @@
       "compileStreaming_static": {
         "__compat": {
           "description": "`compileStreaming()` static method",
-          "mdn_url": "https://developer.mozilla.org/docs/WebAssembly/JavaScript_interface/compileStreaming_static",
+          "mdn_url": "https://developer.mozilla.org/docs/WebAssembly/Reference/JavaScript_interface/compileStreaming_static",
           "spec_url": "https://webassembly.github.io/spec/web-api/#dom-webassembly-compilestreaming",
           "tags": [
             "web-features:wasm"
@@ -201,7 +201,7 @@
               },
               "edge": "mirror",
               "firefox": {
-                "version_added": false
+                "version_added": "134"
               },
               "firefox_android": "mirror",
               "ie": {
@@ -222,7 +222,7 @@
               "webview_ios": "mirror"
             },
             "status": {
-              "experimental": true,
+              "experimental": false,
               "standard_track": true,
               "deprecated": false
             }
@@ -232,7 +232,7 @@
       "instantiate_static": {
         "__compat": {
           "description": "`instantiate()` static method",
-          "mdn_url": "https://developer.mozilla.org/docs/WebAssembly/JavaScript_interface/instantiate_static",
+          "mdn_url": "https://developer.mozilla.org/docs/WebAssembly/Reference/JavaScript_interface/instantiate_static",
           "spec_url": "https://webassembly.github.io/spec/js-api/#dom-webassembly-instantiate",
           "tags": [
             "web-features:wasm"
@@ -292,7 +292,7 @@
               },
               "edge": "mirror",
               "firefox": {
-                "version_added": false
+                "version_added": "134"
               },
               "firefox_android": "mirror",
               "ie": {
@@ -313,7 +313,7 @@
               "webview_ios": "mirror"
             },
             "status": {
-              "experimental": true,
+              "experimental": false,
               "standard_track": true,
               "deprecated": false
             }
@@ -323,7 +323,7 @@
       "instantiateStreaming_static": {
         "__compat": {
           "description": "`instantiateStreaming()` static method",
-          "mdn_url": "https://developer.mozilla.org/docs/WebAssembly/JavaScript_interface/instantiateStreaming_static",
+          "mdn_url": "https://developer.mozilla.org/docs/WebAssembly/Reference/JavaScript_interface/instantiateStreaming_static",
           "spec_url": "https://webassembly.github.io/spec/web-api/#dom-webassembly-instantiatestreaming",
           "tags": [
             "web-features:wasm"
@@ -385,7 +385,7 @@
               },
               "edge": "mirror",
               "firefox": {
-                "version_added": false
+                "version_added": "134"
               },
               "firefox_android": "mirror",
               "ie": {
@@ -406,7 +406,7 @@
               "webview_ios": "mirror"
             },
             "status": {
-              "experimental": true,
+              "experimental": false,
               "standard_track": true,
               "deprecated": false
             }
@@ -416,7 +416,7 @@
       "validate_static": {
         "__compat": {
           "description": "`validate()` static method",
-          "mdn_url": "https://developer.mozilla.org/docs/WebAssembly/JavaScript_interface/validate_static",
+          "mdn_url": "https://developer.mozilla.org/docs/WebAssembly/Reference/JavaScript_interface/validate_static",
           "spec_url": "https://webassembly.github.io/spec/js-api/#dom-webassembly-validate",
           "tags": [
             "web-features:wasm"
@@ -476,7 +476,7 @@
               },
               "edge": "mirror",
               "firefox": {
-                "version_added": false
+                "version_added": "134"
               },
               "firefox_android": "mirror",
               "ie": {
@@ -497,7 +497,7 @@
               "webview_ios": "mirror"
             },
             "status": {
-              "experimental": true,
+              "experimental": false,
               "standard_track": true,
               "deprecated": false
             }
