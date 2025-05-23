@@ -559,6 +559,7 @@
               },
               {
                 "version_added": "89",
+                "version_removed": "128",
                 "partial_implementation": true,
                 "notes": "Only supported on ChromeOS and Windows, see [bug 40542648](https://crbug.com/40542648) and [bug 40729163](https://crbug.com/40729163)."
               }
@@ -725,7 +726,11 @@
           "support": {
             "chrome": {
               "version_added": "81",
-              "notes": "Windows and macOS only. Linux offers no universal badging API on the operating system level."
+              "notes": [
+                "Windows and macOS since Chrome 81.",
+                "ChromeOS since Chrome 91.",
+                "Linux offers no universal badging API on the operating system level."
+              ]
             },
             "chrome_android": {
               "version_added": "81"
@@ -1632,6 +1637,7 @@
               },
               {
                 "version_added": "80",
+                "version_removed": "84",
                 "partial_implementation": true,
                 "notes": "Supports checking of Android app installation."
               }
@@ -5209,7 +5215,11 @@
           "support": {
             "chrome": {
               "version_added": "81",
-              "notes": "Windows and macOS only. Linux offers no universal badging API on the operating system level."
+              "notes": [
+                "Windows and macOS since Chrome 81.",
+                "ChromeOS since Chrome 91.",
+                "Linux offers no universal badging API on the operating system level."
+              ]
             },
             "chrome_android": {
               "version_added": false
@@ -5272,6 +5282,7 @@
               },
               {
                 "version_added": "89",
+                "version_removed": "128",
                 "partial_implementation": true,
                 "notes": "Only supported on ChromeOS and Windows, see [bug 40542648](https://crbug.com/40542648) and [bug 40729163](https://crbug.com/40729163)."
               }
@@ -6116,6 +6127,7 @@
               },
               {
                 "version_added": "16.4",
+                "version_removed": "18.4",
                 "partial_implementation": true,
                 "notes": "Does not work in standalone Home Screen Web Apps. See [bug 254545](https://webkit.org/b/254545#c32)."
               }

@@ -24,7 +24,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version-file: ".nvmrc"
-          cache: npm
 
       - name: "Setup git"
         run: |
@@ -39,8 +38,10 @@ jobs:
 
       - name: Update data
         run: |
+          rm -rf webdriver/bidi
           curl -L -o webdriver/bidi.json "${{ secrets.WEBDRIVER_BIDI_UPDATE_URL }}"
-          git add webdriver/bidi.json
+          npm run split -- webdriver/bidi.json
+          git add webdriver/bidi
           npx lefthook run pre-commit
 
       - name: Create Pull Request
