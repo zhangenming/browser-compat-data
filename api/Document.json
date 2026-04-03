@@ -1133,7 +1133,7 @@
               "edge": "mirror",
               "firefox": [
                 {
-                  "version_added": "preview"
+                  "version_added": "150"
                 },
                 {
                   "version_added": "131",
